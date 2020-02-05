@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication3.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="header" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <link href="css/style.css" rel="stylesheet" /> 
+     <div class ="main">
+            <div class ="overlay"></div>
+                <div class ="topbar">
+                    <div class="logo">Porject Green</div>
+                    <div class="menu">
+                        <ul id="ulSiteMenu">
+                            <li><a href="Home.aspx">Home</a></li>
+                            <li><a href="Login.aspx">Login</a></li>
+                            <li><a href="Register.aspx">Register</a></li>
+                            <li><a href="Personal.aspx">Personal</a></li>
+                            <li><a href="Friend.aspx">Friend</a></li>
+                            <li><a href="App.aspx">App</a></li>   
+                            <li><a href="About.aspx">About us</a></li>
+                        </ul>
+                     </div>
+                </div> 
+         </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderbody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
