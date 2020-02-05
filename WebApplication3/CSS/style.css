@@ -1,0 +1,90 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #3BC0C7;
+}
+
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    }
+
+    .main .topbar {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        margin: 2% 0;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        padding: 10px 0;
+        color: #faf7f7;
+    }
+
+        .main.topbar ul {
+            position: relative;
+            float: right;
+            width: 50%;
+            right: 14px;
+            height: auto;
+            margin: auto;
+        }
+
+            .main .topbar ul li {
+                list-style-type: none;
+                display: inline-block;
+                height: 100%;
+                width: auto;
+                border-radius: 2px;
+                cursor: pointer;
+                padding: 10px;
+                transition: 0.1s ease-in-out;
+                box-sizing: border-box;
+            }
+
+                .main .topbar ul li a {
+                    color: #faf7f7;
+                    text-align: center;
+                    text-decoration: none;
+                    font-family: 'cinzel',sans-serif;
+                    font-size: 20px;
+                    font-weight: 400;
+                    display: block;
+                }
+
+.main .topbar ul li:hover {
+    background: transparent;
+}
+
+
+    .main .topbar .logo {
+        height: auto;
+        width: 20%;
+        float: left;
+        font-family: 'Lato',sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+    }
+.menu{
+    position: fixed;
+    right: 100px;
+}
+
+.word{
+    position: fixed;
+    top: 100px;
+    left: 450px;
+}
